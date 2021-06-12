@@ -17,6 +17,13 @@ namespace Web_Application26034863.Controllers
 {
     public class PeopleController : Controller
     {
+        /*
+         * Default scaffolded controller with automatically generated views. However,
+         * I replaced the functionality of the automatically generated EF database with
+         * Http requests to Web_Service1.
+         */
+
+
         //private Web_Application26034863Context db = new Web_Application26034863Context();
         private static readonly HttpClient client = new HttpClient();
         

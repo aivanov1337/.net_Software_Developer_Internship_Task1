@@ -14,6 +14,10 @@ namespace Web_Service_1.Controllers
 {
     public class PeopleController : ApiController
     {
+        //Default scaffolded controlled with Entity Framework, nothing has been changed.
+
+
+
         private PersonDbContext db = new PersonDbContext();
 
         // GET: api/People
