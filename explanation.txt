@@ -1,0 +1,12 @@
+Web_Service1 is a template .NET Web API project with
+a default scaffolded controller using EF(entity framework).
+
+Web_Application26034863 is a standard template .NET MVC
+project, with a scaffolded EF controller with automatically
+generated views. However, I changed the methods of the 
+controller to instead make the appropriate HTTP calls
+to Web_Service1.
+
+I realise there is a lot of code redundancy in 
+Web_Application26034863's PeopleController, but please
+excuse me because I was short on time.
